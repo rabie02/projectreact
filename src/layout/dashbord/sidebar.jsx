@@ -54,7 +54,7 @@ const Sidebar = () => {
                   { path: '/dashboard/product-offering', icon: 'shopping-bag', text: 'Product Offerings' }
                 ] 
               },
-              { path: '/dashboard/product-spec', icon: 'file-list', text: 'Product Spec' },
+              { path: '/dashboard/product-specification', icon: 'file-list', text: 'Product Specification' },
             ].map((item) => {
               const hasChildren = item.children && item.children.length > 0;
               const isItemActive = isActive(item.path) || (hasChildren && isChildActive(item.children));
